@@ -27,49 +27,7 @@ do
 done
 
 echo -e "Un git status nous permet de voir que file1 n'est plus dans la staging area mais bien enregistré dans le repo :\n"
-
-git status
-
-echo -e "Supprimons les fichier file2 et fil3" 
-
-
-shouldloop=true
-while $shouldloop
-do
-	read -p "Entrez rm file2 file3 : " strtotest
-	shouldloop=false
-
-	if [ "$strtotest" == 'rm file2 file3' ]
-	then
-		rm file2 file3
-		echo -e "\nbien joué \n"
-	else
-		echo "try again"
-		shouldloop=true
-	fi
-done
-
-
-shouldloop=true
-while $shouldloop
-do
-	read -p "Entrez git status pour voir comment la suppresion de ces deux fichier est vu par git : " strtotest
-	shouldloop=false
-
-	if [ "$strtotest" == 'git status' ]
-	then
-		git status
-	
-	elif [ "$strtotest" == 'gst' ]
-	then
-		git status
-	else
-		echo "try again"
-		shouldloop=true
-	fi
-done
-
-
-sleep 1000000
-
+sleep 10
 clear
+
+echo -e "merci d'avoir utilisé ce petit tutoriel ! Celui -ci est loin d'etre fini: il nous reste a voir git push, remote, fetch, branch, checkout, stash et bien d'autre encore... et corriger les erreurs de frappe, un jour \n En attendant, vous pouvez approffondir vos connaissance avec cette excellente commande : man git "
