@@ -1,26 +1,5 @@
+#!bin/bash
 
-shouldloop=true
+cd gtt-workdir
 
-
-while $shouldloop
-do
-	read -p "please input XXX or YYY : " strtotest
-	shouldloop=false
-
-	if [ $strtotest == 'XXX' ]
-	then
-		clear
-		echo "you have typed XXX : "
-
-	elif [ $strtotest == 'YYY' ]
-	then
-		clear
-		echo "you have typed YYY : "
-
-	else
-		clear
-		sleep 1
-		echo "try again"
-		shouldloop=true
-	fi
-done
+echo -e "merci d'avoir utilisé ce petit tutoriel ! Celui -ci est loin d'etre fini: il nous reste a voir git push, remote, fetch, branch, checkout, stash et bien d'autre encore... et corriger les erreurs de frappe, un jour \n En attendant, vous pouvez approffondir vos connaissance avec cette excellente commande : man git "

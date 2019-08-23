@@ -30,4 +30,4 @@ echo -e "Un git status nous permet de voir que file1 n'est plus dans la staging 
 sleep 10
 clear
 
-echo -e "merci d'avoir utilisé ce petit tutoriel ! Celui -ci est loin d'etre fini: il nous reste a voir git push, remote, fetch, branch, checkout, stash et bien d'autre encore... et corriger les erreurs de frappe, un jour \n En attendant, vous pouvez approffondir vos connaissance avec cette excellente commande : man git "
+
