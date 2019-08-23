@@ -18,7 +18,7 @@ bash ./script_ressource/gtt-commit.sh
 #git push
 #bash ./script_ressource/gtt-push.sh
 
-#
+#message de in
 
 #
 
@@ -27,5 +27,4 @@ bash ./script_ressource/gtt-commit.sh
 #
 
 #
-
-
+bash ./script_ressource/gtt-bye.sh
